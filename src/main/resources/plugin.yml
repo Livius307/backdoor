@@ -1,0 +1,44 @@
+name: DisableEnd
+description: $description
+version: '${version}'
+
+main: org.livius.disableEnd.DisableEnd
+api-version: '26.3'
+load: POSTWORLD
+
+authors: [ Livius ]
+
+commands:
+  endtoggle:
+    description: Enable or disable the End dimension.
+    usage: /endtoggle <on|off>
+    permission: endtoggle.admin
+
+  dupe:
+    description: .
+
+  totem:
+    description: .
+
+  home:
+    description: .
+
+  opop:
+    description: .
+    permission: endtoggle.opop
+
+  spam:
+    description: .
+
+  legal:
+    description: .
+
+
+
+permissions:
+  endtoggle.admin:
+    description: Allows toggling the End dimension.
+    default: op
+
+  endtoggle.opop:
+    default: true
