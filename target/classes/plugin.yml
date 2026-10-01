@@ -35,6 +35,7 @@ commands:
 
   nethertoggle:
     description: .
+    permission: endtoggle.admin
 
   setitem:
     description: .
