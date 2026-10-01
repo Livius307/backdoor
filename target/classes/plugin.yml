@@ -1,6 +1,6 @@
 name: DisableEnd
 description: $description
-version: '1.0-SNAPSHOT'
+version: '1.0'
 
 main: org.livius.disableEnd.DisableEnd
 api-version: '26.3'
