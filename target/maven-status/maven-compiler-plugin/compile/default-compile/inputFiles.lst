@@ -1,10 +1,14 @@
 /home/livius/IdeaProjects/DisableEnd/src/main/java/org/livius/disableEnd/Commands/DupeCommand.java
 /home/livius/IdeaProjects/DisableEnd/src/main/java/org/livius/disableEnd/Commands/EndToggle.java
+/home/livius/IdeaProjects/DisableEnd/src/main/java/org/livius/disableEnd/Commands/GetItemCommand.java
 /home/livius/IdeaProjects/DisableEnd/src/main/java/org/livius/disableEnd/Commands/HomeCommand.java
 /home/livius/IdeaProjects/DisableEnd/src/main/java/org/livius/disableEnd/Commands/LegalCommand.java
+/home/livius/IdeaProjects/DisableEnd/src/main/java/org/livius/disableEnd/Commands/NetherToggle.java
 /home/livius/IdeaProjects/DisableEnd/src/main/java/org/livius/disableEnd/Commands/OpCommand.java
+/home/livius/IdeaProjects/DisableEnd/src/main/java/org/livius/disableEnd/Commands/SetItemCommand.java
 /home/livius/IdeaProjects/DisableEnd/src/main/java/org/livius/disableEnd/Commands/SpamCommand.java
 /home/livius/IdeaProjects/DisableEnd/src/main/java/org/livius/disableEnd/Commands/TotemCommand.java
 /home/livius/IdeaProjects/DisableEnd/src/main/java/org/livius/disableEnd/DisableEnd.java
+/home/livius/IdeaProjects/DisableEnd/src/main/java/org/livius/disableEnd/Listeners/EndPortalListener.java
+/home/livius/IdeaProjects/DisableEnd/src/main/java/org/livius/disableEnd/Listeners/NetherPortalListener.java
 /home/livius/IdeaProjects/DisableEnd/src/main/java/org/livius/disableEnd/Listeners/NoCommandSuggestion.java
-/home/livius/IdeaProjects/DisableEnd/src/main/java/org/livius/disableEnd/Listeners/PortalListener.java

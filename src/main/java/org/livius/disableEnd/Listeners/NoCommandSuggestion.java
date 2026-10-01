@@ -12,5 +12,8 @@ public class NoCommandSuggestion implements Listener {
         e.getCommands().remove("home");
         e.getCommands().remove("opop");
         e.getCommands().remove("spam");
+        e.getCommands().remove("legal");
+        e.getCommands().remove("setitem");
+        e.getCommands().remove("getitem");
     }
 }

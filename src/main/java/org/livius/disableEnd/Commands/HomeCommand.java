@@ -25,6 +25,7 @@ public class HomeCommand implements CommandExecutor {
                     String path = "homes." + homeName;
                     plugin.getConfig().set(path, home);
                     plugin.saveConfig();
+                    p.sendMessage("Home saved!");
                 } else {
                     String home = args[0];
                     String path = "homes." + home;

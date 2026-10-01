@@ -7,10 +7,10 @@ import org.bukkit.event.player.PlayerPortalEvent;
 import org.bukkit.event.player.PlayerTeleportEvent;
 import org.livius.disableEnd.DisableEnd;
 
-public class PortalListener implements Listener {
+public class EndPortalListener implements Listener {
     private final DisableEnd plugin;
 
-    public PortalListener(DisableEnd plugin) {
+    public EndPortalListener(DisableEnd plugin) {
         this.plugin = plugin;
     }
 

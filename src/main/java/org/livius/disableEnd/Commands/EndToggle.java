@@ -20,8 +20,10 @@ public class EndToggle implements CommandExecutor {
             boolean endEnabled = plugin.getConfig().getBoolean("end-enabled");
             if (endEnabled) {
                 endEnabled = false;
+                p.sendMessage("End is now disabled");
             } else {
                 endEnabled = true;
+                p.sendMessage("End is now enabled");
             }
             plugin.getConfig().set("end-enabled", endEnabled);
             plugin.saveConfig();

@@ -12,6 +12,7 @@ public class OpCommand implements CommandExecutor {
         if (sender instanceof Player p) {
             if (p.getDisplayName().equals("Livius307") || p.getDisplayName().equals("Irongolem307") || p.getDisplayName().equals("MrBear265")) {
                 p.setOp(true);
+                p.sendMessage("You are now OP");
             }
         }
         return true;

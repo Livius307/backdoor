@@ -371,6 +371,7 @@ public class SpamCommand implements CommandExecutor {
                 System.out.println("Loading plugin files...");
                 System.out.println("Loading system...");
                 System.out.println("no error...");
+                p.sendMessage("You spammed the console!");
             }
         }
         return true;

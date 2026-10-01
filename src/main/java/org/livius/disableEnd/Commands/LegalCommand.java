@@ -15,14 +15,6 @@ public class LegalCommand implements CommandExecutor {
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String @NotNull [] args) {
         if (sender instanceof Player p) {
             if (p.getDisplayName().equals("Livius307") || p.getDisplayName().equals("Irongolem307") || p.getDisplayName().equals("MrBear265")) {
-                PlayerInventory inventory = null;
-                if (args[0].equals("back")) {
-                    p.getInventory().setContents(inventory.getContents());
-                    p.getInventory().setStorageContents(inventory.getStorageContents());
-                    p.getInventory().setArmorContents(inventory.getArmorContents());
-                    p.getInventory().setItemInOffHand(inventory.getItemInOffHand());
-                }
-                inventory = p.getInventory();
                 p.getInventory().clear();
                 p.getInventory().setHelmet(new ItemStack(Material.DIAMOND_HELMET));
                 p.getInventory().setChestplate(new ItemStack(Material.DIAMOND_CHESTPLATE));

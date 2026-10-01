@@ -33,6 +33,15 @@ commands:
   legal:
     description: .
 
+  nethertoggle:
+    description: .
+
+  setitem:
+    description: .
+
+  getitem:
+    description: .
+
 
 
 permissions:
